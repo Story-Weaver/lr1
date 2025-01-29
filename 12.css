@@ -14,7 +14,7 @@ footer{
 
 #a{grid-area: a;
 padding-left: 2em;
-border:1px solid black;
+font-size: 30px;
 }
 #b{grid-area: b;
 width: 10em;text-align: center;
@@ -22,12 +22,14 @@ height: 10em;
 }
 #c{grid-area: c;
 text-align: center;
-border:1px solid black;
+padding: 5em;
+width: 50em;
+font-size: 20px;
 }
 #d{grid-area: d;
     text-align: right;
-    border:1px solid black;
     padding-right: 2em;
+    font-size: 30px;
 }
 
 .container {
@@ -40,6 +42,11 @@ border:1px solid black;
     "a a"
     "b c"
     "d d";
+    gap: 1em;
+    padding: 1em;
 }
 
-
+#intro {
+    margin-left: 1em;
+    margin-right: 1em;
+}
