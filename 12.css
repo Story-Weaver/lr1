@@ -1,0 +1,45 @@
+body{
+    margin :0px;
+    background-color: gray;
+}
+
+h1{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(87, 87, 87);
+    padding: 1em;
+}
+
+#a{grid-area: a;
+padding-left: 2em;
+border:1px solid black;
+}
+#b{grid-area: b;
+width: 10em;text-align: center;
+height: 10em;
+}
+#c{grid-area: c;
+text-align: center;
+border:1px solid black;
+}
+#d{grid-area: d;
+    text-align: right;
+    border:1px solid black;
+    padding-right: 2em;
+}
+
+.container {
+    margin: 2em;
+    border:1px solid black;
+    display: grid;
+    grid-template-columns: auto; /* Две колонки одинаковой ширины */
+    grid-template-rows: auto; /* Высота строк будет автоматически подстраиваться под содержимое */
+    grid-template-areas: 
+    "a a"
+    "b c"
+    "d d";
+}
+
+
