@@ -12,21 +12,21 @@ footer{
     padding: 1em;
 }
 
-#a{grid-area: a;
+.a{grid-area: a;
 padding-left: 2em;
 font-size: 30px;
 }
-#b{grid-area: b;
+.b{grid-area: b;
 width: 10em;text-align: center;
 height: 10em;
 }
-#c{grid-area: c;
+.c{grid-area: c;
 text-align: center;
 padding: 5em;
 width: 50em;
 font-size: 20px;
 }
-#d{grid-area: d;
+.d{grid-area: d;
     text-align: right;
     padding-right: 2em;
     font-size: 30px;
@@ -53,4 +53,6 @@ font-size: 20px;
 
 img {
     border-radius: 1em;
+    width: 200em;
+    height: 250em;
 }
